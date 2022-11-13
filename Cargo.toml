@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "code00",
+  "code01",
+  "code02"
+]
+
+exclude = ["code00"]
