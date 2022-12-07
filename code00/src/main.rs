@@ -1,7 +1,8 @@
 #![allow(unused)]
 
+use code01::*;
+use code02::*;
+
 fn main() {
-    //println!("Hello, world!");
-    let code01 = code01::code01();
-    code02::code02();
+    _struct::ex_struct();
 }

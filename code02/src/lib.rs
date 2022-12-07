@@ -1,15 +1,7 @@
 #![allow(unused)]
 
-pub fn code02() {
-    println!("ini folder code02");
-}
+// import modul
+pub mod calculator;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        assert!(true);
-    }
-}
+// import item modul
+pub use calculator::*;
